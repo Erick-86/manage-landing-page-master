@@ -141,6 +141,12 @@ header button{
     }
 }
 
+@media screen and (min-width: 1220px){
+    .header{
+        width: 1200px;
+    }
+}
+
 /* HOVER EFFECTS */
 .header .header-nav .nav-links li a:hover{
     color: hsl(227, 12%, 61%);
