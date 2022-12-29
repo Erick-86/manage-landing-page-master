@@ -45,8 +45,8 @@ header button{
 }
 
 .header .header-nav .nav-links li a{
-    display: block;
-    margin: 1.7rem 0rem;
+    display: inline-block;
+    margin: 1rem 0rem;
     text-transform: capitalize;
     font-weight: 700;
     font-size: 1.1rem;
