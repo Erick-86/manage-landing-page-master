@@ -38,6 +38,20 @@ header button{
     border-radius: 5px;
     padding: 2rem 0;
     display: none;
+    animation: transitionDown 0.4s;
+}
+
+/* ANIMATION TO SLIDE DOWN THE MENU WHEN OPEN IS CLICKED */
+@keyframes transitionDown{
+    from{
+        opacity: 0;
+        transform: translateY(-40px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }
 
 .header .header-nav .nav-links{
@@ -59,4 +73,5 @@ header button{
     position: absolute;
     width: 100%;
     background-attachment: fixed;
+    transition: .5s ease;
 }
