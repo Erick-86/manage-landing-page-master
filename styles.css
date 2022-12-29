@@ -64,7 +64,8 @@ header button{
     text-transform: capitalize;
     font-weight: 700;
     font-size: 1.1rem;
-    color: hsl(228, 39%, 23%)
+    color: hsl(228, 39%, 23%);
+    transition: all .1s linear;
 }
 
 .get-started_btn{
@@ -77,6 +78,7 @@ header button{
     -webkit-box-shadow: 3px -3px 17px -9px rgba(241, 81, 40, 0.938);
     -moz-box-shadow: 3px -3px 17px -9px rgba(241, 81, 40, 0.938);
     display: none;
+    transition: all .1s linear;
 }
 
 /* Body background color when mobile menu is active */
@@ -137,4 +139,13 @@ header button{
     .get-started_btn{
         display: block;
     }
+}
+
+/* HOVER EFFECTS */
+.header .header-nav .nav-links li a:hover{
+    color: hsl(227, 12%, 61%);
+}
+
+.get-started_btn:hover{
+    background-color: hsl(12, 100%, 65%)
 }
