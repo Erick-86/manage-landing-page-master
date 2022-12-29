@@ -8,6 +8,7 @@
     font-family: 'Inter', sans-serif;
 }
 
+
 /* DESIGNING MOBILE FIRST */
 /* HEADER STYLING */
 .header {
@@ -51,4 +52,12 @@ header button{
     font-weight: 700;
     font-size: 1.1rem;
     color: hsl(228, 39%, 23%)
+}
+
+/* Body background color when mobile menu is active */
+.mobile-bg{
+    background: linear-gradient(#ffffff27, #0000004d);
+    position: absolute;
+    width: 100%;
+    background-attachment: fixed;
 }
