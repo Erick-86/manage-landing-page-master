@@ -18,6 +18,11 @@
     /* padding: 2.5rem 1.2rem; */
 }
 
+header button{
+    background-color: inherit;
+    border: none;
+}
+
 .header .header-nav{
     position: absolute;
     width: 87%;
