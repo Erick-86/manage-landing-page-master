@@ -23,6 +23,10 @@ header button{
     border: none;
 }
 
+.header .mobile-close-menu_btn{
+    display: none;
+}
+
 .header .header-nav{
     position: absolute;
     width: 87%;
@@ -33,6 +37,7 @@ header button{
     border-radius: 5px;
     padding: 2rem 0;
     border: 1px solid red;
+    display: none;
 }
 
 .header .header-nav .nav-links{
