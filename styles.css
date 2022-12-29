@@ -7,3 +7,11 @@
     list-style: none;
     font-family: 'Inter', sans-serif;
 }
+
+/* DESIGNING MOBILE FIRST */
+/* HEADER STYLING */
+.header {
+    display: flex;
+    justify-content:space-between;
+    padding: 2.5rem 1.2rem;
+}
