@@ -36,7 +36,7 @@
 
 .header .header-nav .nav-links li a{
     display: block;
-    padding: .95rem 0rem;
+    margin: 1.7rem 0rem;
     text-transform: capitalize;
     font-weight: 700;
     font-size: 1.1rem;
