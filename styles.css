@@ -130,6 +130,10 @@ header button{
 }
 
 @media screen and (min-width: 850px){
+    .header .header-nav .nav-links li a{
+        margin: 0 .7rem;
+    }
+    
     .get-started_btn{
         display: block;
     }
