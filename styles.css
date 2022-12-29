@@ -75,3 +75,29 @@ header button{
     background-attachment: fixed;
     transition: .5s ease;
 }
+
+/* LARGER SCREENS HEADER (MIN: 600px*/
+@media screen and (min-width: 600px)  {
+    .header .header-nav{
+        display: block !important;
+        position: initial;
+        width: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    .header button{
+        display: none !important;
+    }
+
+    .header .header-nav .nav-links{
+        text-align: inherit;
+        display: flex;
+    }
+
+    .header .header-nav .nav-links li a{
+        margin: 0 1rem;
+        display: flex;
+
+    }
+}
