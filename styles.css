@@ -128,3 +128,9 @@ header button{
         display: block;
     } */
 }
+
+@media screen and (min-width: 850px){
+    .get-started_btn{
+        display: block;
+    }
+}
