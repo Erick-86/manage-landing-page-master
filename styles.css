@@ -15,3 +15,28 @@
     justify-content:space-between;
     padding: 2.5rem 1.2rem;
 }
+
+.header .header-nav{
+    position: absolute;
+    width: 87%;
+    background-color: #fff;
+    left: 0;
+    right: 0px;
+    margin: 2.5rem  auto;
+    border-radius: 5px;
+    padding: 2rem 0;
+    border: 1px solid red;
+}
+
+.header .header-nav .nav-links{
+    text-align: center;
+}
+
+.header .header-nav .nav-links li a{
+    display: block;
+    padding: .95rem 0rem;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: hsl(227, 6%, 45%);
+}
