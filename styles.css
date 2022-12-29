@@ -67,6 +67,18 @@ header button{
     color: hsl(228, 39%, 23%)
 }
 
+.get-started_btn{
+    background-color: hsl(12, 88%, 59%);
+    padding: .8rem 1.5rem;
+    border-radius: 70px;
+    color: #fff;
+    font-size: 1rem;
+    box-shadow: 3px -3px 17px -9px rgba(241, 81, 40, 0.938);
+    -webkit-box-shadow: 3px -3px 17px -9px rgba(241, 81, 40, 0.938);
+    -moz-box-shadow: 3px -3px 17px -9px rgba(241, 81, 40, 0.938);
+    display: none;
+}
+
 /* Body background color when mobile menu is active */
 .mobile-bg{
     background: linear-gradient(#ffffff27, #0000004d);
@@ -78,6 +90,16 @@ header button{
 
 /* LARGER SCREENS HEADER (MIN: 600px*/
 @media screen and (min-width: 600px)  {
+    .mobile-bg{
+        background: inherit;
+    }
+    
+    .header{
+        align-items: center;
+        width: 98%;
+        margin: 2.5rem auto;
+    }
+    
     .header .header-nav{
         display: block !important;
         position: initial;
@@ -98,6 +120,11 @@ header button{
     .header .header-nav .nav-links li a{
         margin: 0 1rem;
         display: flex;
-
+        font-weight: 400;
+        font-size: 1rem;
     }
+
+    /* .get-started_btn{
+        display: block;
+    } */
 }
